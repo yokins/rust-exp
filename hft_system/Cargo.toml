@@ -1,0 +1,14 @@
+[package]
+name = "hft_system"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }  # 异步运行时，支持完整特性（如网络、定时器）
+flume = "0.11"                                    # 高性能通道库，用于模块间通信
+serde = { version = "1.0", features = ["derive"] } # 序列化/反序列化库，支持 derive 宏
+toml = "0.8"                                      # TOML 格式解析库，用于配置文件
+config = "0.14"                                   # 配置管理库，支持多源配置加载
+rust_decimal = "1.35"                             # 高精度十进制运算库，适合金融计算
+tracing = "0.1"                                   # 日志记录库，提供结构化日志
+tracing-subscriber = "0.3"                        # 日志格式化工具，支持自定义输出
