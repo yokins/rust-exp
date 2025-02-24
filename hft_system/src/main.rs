@@ -2,10 +2,10 @@ use std::error::Error;
 use tracing::info;
 mod config;
 mod core;
-mod feed;
-mod strategy;
 mod execution;
+mod feed;
 mod monitoring;
+mod strategy;
 mod system;
 use system::System;
 
@@ -14,5 +14,4 @@ async fn main() -> Result<(), Box<dyn Error>> {
     info!("Starting HFT system...");
     let system = System::new();
     system.run_forever().await
-
 }
