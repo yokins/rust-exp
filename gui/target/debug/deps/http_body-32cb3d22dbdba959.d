@@ -1,0 +1,7 @@
+/Users/yokins/yokins/rust-exp/gui/target/debug/deps/libhttp_body-32cb3d22dbdba959.rmeta: /Users/yokins/.cargo/registry/src/index.crates.io-6f17d22bba15001f/http-body-1.0.1/src/lib.rs /Users/yokins/.cargo/registry/src/index.crates.io-6f17d22bba15001f/http-body-1.0.1/src/frame.rs /Users/yokins/.cargo/registry/src/index.crates.io-6f17d22bba15001f/http-body-1.0.1/src/size_hint.rs
+
+/Users/yokins/yokins/rust-exp/gui/target/debug/deps/http_body-32cb3d22dbdba959.d: /Users/yokins/.cargo/registry/src/index.crates.io-6f17d22bba15001f/http-body-1.0.1/src/lib.rs /Users/yokins/.cargo/registry/src/index.crates.io-6f17d22bba15001f/http-body-1.0.1/src/frame.rs /Users/yokins/.cargo/registry/src/index.crates.io-6f17d22bba15001f/http-body-1.0.1/src/size_hint.rs
+
+/Users/yokins/.cargo/registry/src/index.crates.io-6f17d22bba15001f/http-body-1.0.1/src/lib.rs:
+/Users/yokins/.cargo/registry/src/index.crates.io-6f17d22bba15001f/http-body-1.0.1/src/frame.rs:
+/Users/yokins/.cargo/registry/src/index.crates.io-6f17d22bba15001f/http-body-1.0.1/src/size_hint.rs:
