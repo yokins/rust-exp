@@ -3,9 +3,6 @@ use serde::Deserialize;
 use tabled::settings::{object::Columns, Alignment, Modify, Style};
 use tabled::{Table, Tabled};
 
-// const APP_KEY: &str = "773ef845-2a33-4560-8446-76f23a3f24b9";
-// const APP_SECRET: &str = "82BAC2D1851B2B3F338AA5EA3D49295D";
-
 fn display_option(val: &Option<String>) -> String {
     match val {
         Some(s) => s.clone(),
